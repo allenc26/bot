@@ -1,0 +1,163 @@
+[34.000158310] 2018-11-07 21:19:12,733 - INFO - launcher: Starting sanity checks
+[34.000158310] 2018-11-07 21:19:12,733 - INFO - launcher: Checking for python 3.5+
+[35.000324249] 2018-11-07 21:19:12,734 - INFO - launcher: Checking console encoding
+[35.000324249] 2018-11-07 21:19:12,734 - INFO - launcher: Setting console encoding to UTF-8
+[35.000324249] 2018-11-07 21:19:12,734 - INFO - launcher: Ensuring we're in the right folder
+[37.000417709] 2018-11-07 21:19:12,736 - INFO - launcher: Adding local bins/ folder to path
+[37.000417709] 2018-11-07 21:19:12,736 - INFO - launcher: Checks passed.
+[38.000106812] 2018-11-07 21:19:12,737 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.9359800815582275] 2018-11-07 21:19:14,635 - DEBUG - musicbot.bot | In bot.py::MainThread(49276), line 203 in _setup_logging: Set logging level to INFO
+[1.9619796276092529] 2018-11-07 21:19:14,661 - INFO - musicbot.bot | In bot.py::MainThread(49276), line 76 in __init__: Loaded autoplaylist with 2531 entries
+[1.963979483] launcher-INFO: Connecting
+[4.6100049018859863] 2018-11-07 21:19:17,309 - DEBUG - musicbot.bot | In bot.py::MainThread(49276), line 993 in on_ready: Connection established, ready to go.
+[4.6100049018859863] 2018-11-07 21:19:17,309 - DEBUG - musicbot.bot | In bot.py::MainThread(49276), line 314 in _cache_app_info: Caching app info
+[4.8829483985900879] 2018-11-07 21:19:17,582 - DEBUG - musicbot.bot | In bot.py::MainThread(49276), line 810 in _scheck_ensure_env: Ensuring data folders exist
+[4.8849487304687500] 2018-11-07 21:19:17,584 - DEBUG - musicbot.bot | In bot.py::MainThread(49276), line 820 in _scheck_ensure_env: Deleted old audio cache
+[4.8849487304687500] 2018-11-07 21:19:17,584 - DEBUG - musicbot.bot | In bot.py::MainThread(49276), line 826 in _scheck_server_permissions: Checking server permissions
+[4.8849487304687500] 2018-11-07 21:19:17,584 - DEBUG - musicbot.bot | In bot.py::MainThread(49276), line 830 in _scheck_autoplaylist: Auditing autoplaylist
+[4.8859486579895020] 2018-11-07 21:19:17,585 - DEBUG - musicbot.bot | In bot.py::MainThread(49276), line 834 in _scheck_configs: Validating config
+[4.8859486579895020] 2018-11-07 21:19:17,585 - DEBUG - musicbot.config | In config.py::MainThread(49276), line 175 in async_validate: Validating options...
+[4.8859486579895020] 2018-11-07 21:19:17,585 - DEBUG - musicbot.bot | In bot.py::MainThread(49276), line 837 in _scheck_configs: Validating permissions config
+[4.8859486579895020] 2018-11-07 21:19:17,585 - DEBUG - musicbot.permissions | In permissions.py::MainThread(49276), line 59 in async_validate: Validating permissions...
+[4.8869485855102539] 2018-11-07 21:19:17,586 - INFO - musicbot.bot | In bot.py::MainThread(49276), line 1004 in on_ready: Connected!  Musicbot v1.9.6
+
+[4.8869485855102539] 2018-11-07 21:19:17,586 - INFO - musicbot.bot | In bot.py::MainThread(49276), line 1014 in on_ready: Bot:   392130150986153998/MusicMan#8246 [BOT]
+[4.8879485130310059] 2018-11-07 21:19:17,587 - INFO - musicbot.bot | In bot.py::MainThread(49276), line 1022 in on_ready: Owner: 112577476554674176/Decidia#7152
+
+[4.8879485130310059] 2018-11-07 21:19:17,587 - INFO - musicbot.bot | In bot.py::MainThread(49276), line 1025 in on_ready: Server List:
+[4.8889484405517578] 2018-11-07 21:19:17,588 - INFO - musicbot.bot | In bot.py::MainThread(49276), line 1026 in <listcomp>:  - MAHN SHWINES!
+[4.8889484405517578] 2018-11-07 21:19:17,588 - INFO - musicbot.bot | In bot.py::MainThread(49276), line 1057 in on_ready: Bound to text channels:
+[4.8899488449096680] 2018-11-07 21:19:17,589 - INFO - musicbot.bot | In bot.py::MainThread(49276), line 1058 in <listcomp>:  - MAHN SHWINES!/botcommands
+[4.8899488449096680] 2018-11-07 21:19:17,589 - INFO - musicbot.bot | In bot.py::MainThread(49276), line 1096 in on_ready: Not autojoining any voice channels
+[4.8909485340118408] 2018-11-07 21:19:17,590 - INFO - musicbot.bot | In bot.py::MainThread(49276), line 1100 in on_ready: Options:
+[4.8919486999511719] 2018-11-07 21:19:17,591 - INFO - musicbot.bot | In bot.py::MainThread(49276), line 1102 in on_ready:   Command prefix: !
+[4.8919486999511719] 2018-11-07 21:19:17,591 - INFO - musicbot.bot | In bot.py::MainThread(49276), line 1103 in on_ready:   Default volume: 50%
+[4.8929486274719238] 2018-11-07 21:19:17,592 - INFO - musicbot.bot | In bot.py::MainThread(49276), line 1105 in on_ready:   Skip threshold: 4 votes or 50%
+[4.8929486274719238] 2018-11-07 21:19:17,592 - INFO - musicbot.bot | In bot.py::MainThread(49276), line 1106 in on_ready:   Now Playing @mentions: Disabled
+[4.8939485549926758] 2018-11-07 21:19:17,593 - INFO - musicbot.bot | In bot.py::MainThread(49276), line 1107 in on_ready:   Auto-Summon: Disabled
+[4.8949487209320068] 2018-11-07 21:19:17,594 - INFO - musicbot.bot | In bot.py::MainThread(49276), line 1108 in on_ready:   Auto-Playlist: Disabled
+[4.8949487209320068] 2018-11-07 21:19:17,594 - INFO - musicbot.bot | In bot.py::MainThread(49276), line 1109 in on_ready:   Auto-Pause: Enabled
+[4.8979480266571045] 2018-11-07 21:19:17,597 - INFO - musicbot.bot | In bot.py::MainThread(49276), line 1110 in on_ready:   Delete Messages: Enabled
+[4.8989508152008057] 2018-11-07 21:19:17,598 - INFO - musicbot.bot | In bot.py::MainThread(49276), line 1112 in on_ready:     Delete Invoking: Enabled
+[4.8989508152008057] 2018-11-07 21:19:17,598 - INFO - musicbot.bot | In bot.py::MainThread(49276), line 1113 in on_ready:   Debug Mode: Disabled
+[4.8999481201171875] 2018-11-07 21:19:17,599 - INFO - musicbot.bot | In bot.py::MainThread(49276), line 1114 in on_ready:   Downloaded songs will be deleted
+[4.9009480476379395] 2018-11-07 21:19:17,600 - INFO - musicbot.bot | In bot.py::MainThread(49276), line 242 in _join_startup_channels: Found resumable voice channel MAHN SHWINES!/General Chat
+[4.9019477367401123] 2018-11-07 21:19:17,601 - INFO - musicbot.bot | In bot.py::MainThread(49276), line 257 in _join_startup_channels: Attempting to join MAHN SHWINES!/General Chat
+[4.9029481410980225] 2018-11-07 21:19:17,602 - DEBUG - musicbot.bot | In bot.py::MainThread(49276), line 427 in get_voice_client: Connection attempt 1 to General Chat
+[4.9029481410980225] 2018-11-07 21:19:17,602 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(49276), line 366 in join_voice_channel: (join_voice_channel) creating futures
+[4.9039511680603027] 2018-11-07 21:19:17,603 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(49276), line 372 in join_voice_channel: (join_voice_channel) setting voice state
+[4.9039511680603027] 2018-11-07 21:19:17,603 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(49276), line 375 in join_voice_channel: (join_voice_channel) waiting for session id
+[5.0579466819763184] 2018-11-07 21:19:17,757 - DEBUG - musicbot.bot | In bot.py::MainThread(49276), line 2516 in on_voice_state_update: Resumed voice connection to MAHN SHWINES!/General Chat
+[5.0579466819763184] 2018-11-07 21:19:17,757 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(49276), line 2528 in on_voice_state_update: Voice state update for 392130150986153998/MusicMan#8246 on MAHN SHWINES!/General Chat -> [RESUME, CONNECT]
+[5.0589470863342285] 2018-11-07 21:19:17,758 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(49276), line 379 in join_voice_channel: (join_voice_channel) waiting for voice data
+[5.0589470863342285] 2018-11-07 21:19:17,758 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(49276), line 393 in join_voice_channel: (join_voice_channel) connecting...
+[20.0565297603607178] 2018-11-07 21:19:32,756 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(49276), line 398 in join_voice_channel: (join_voice_channel) connection failed, disconnecting
+[20.0565297603607178] 2018-11-07 21:19:32,756 - WARNING - musicbot.bot | In bot.py::MainThread(49276), line 436 in get_voice_client: Failed to connect, retrying (1/5)
+[20.5577695369720459] 2018-11-07 21:19:33,257 - DEBUG - musicbot.bot | In bot.py::MainThread(49276), line 427 in get_voice_client: Connection attempt 2 to General Chat
+[20.5577695369720459] 2018-11-07 21:19:33,257 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(49276), line 366 in join_voice_channel: (join_voice_channel) creating futures
+[20.5577695369720459] 2018-11-07 21:19:33,257 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(49276), line 372 in join_voice_channel: (join_voice_channel) setting voice state
+[20.5577695369720459] 2018-11-07 21:19:33,257 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(49276), line 375 in join_voice_channel: (join_voice_channel) waiting for session id
+[20.6227686405181885] 2018-11-07 21:19:33,322 - DEBUG - musicbot.bot | In bot.py::MainThread(49276), line 2516 in on_voice_state_update: Resumed voice connection to MAHN SHWINES!/General Chat
+[20.6237690448760986] 2018-11-07 21:19:33,323 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(49276), line 2528 in on_voice_state_update: Voice state update for 392130150986153998/MusicMan#8246 on MAHN SHWINES!/General Chat -> [RESUME, CONNECT]
+[20.6237690448760986] 2018-11-07 21:19:33,323 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(49276), line 379 in join_voice_channel: (join_voice_channel) waiting for voice data
+[20.8037676811218262] 2018-11-07 21:19:33,503 - INFO - musicbot.bot | In bot.py::MainThread(49276), line 2359 in on_message: 112577476554674176/Decidia#7152: !shutdown
+[26.1343033313751221] 2018-11-07 21:19:38,834 - ERROR - musicbot.bot | In bot.py::MainThread(49276), line 445 in get_voice_client: Unknown error attempting to connect to voice
+Traceback (most recent call last):
+  File "C:\Users\Decid_p2go16g\Desktop\MusicBot-master\musicbot\bot.py", line 431, in get_voice_client
+    vc = await self.join_voice_channel(channel)
+  File "C:\Users\Decid_p2go16g\Desktop\MusicBot-master\musicbot\bot.py", line 380, in join_voice_channel
+    data = await asyncio.wait_for(voice_data_future, timeout=15, loop=self.loop)
+  File "C:\Users\Decid_p2go16g\AppData\Local\Programs\Python\Python36\lib\asyncio\tasks.py", line 351, in wait_for
+    yield from waiter
+concurrent.futures._base.CancelledError
+[26.6475279331207275] 2018-11-07 21:19:39,347 - DEBUG - musicbot.bot | In bot.py::MainThread(49276), line 427 in get_voice_client: Connection attempt 3 to General Chat
+[26.6475279331207275] 2018-11-07 21:19:39,347 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(49276), line 366 in join_voice_channel: (join_voice_channel) creating futures
+[26.6475279331207275] 2018-11-07 21:19:39,347 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(49276), line 372 in join_voice_channel: (join_voice_channel) setting voice state
+[26.6475279331207275] 2018-11-07 21:19:39,347 - ERROR - musicbot.bot | In bot.py::MainThread(49276), line 445 in get_voice_client: Unknown error attempting to connect to voice
+Traceback (most recent call last):
+  File "C:\Users\Decid_p2go16g\AppData\Local\Programs\Python\Python36\lib\site-packages\discord\gateway.py", line 447, in send_as_json
+    yield from super().send(utils.to_json(data))
+  File "C:\Users\Decid_p2go16g\AppData\Local\Programs\Python\Python36\lib\site-packages\websockets\protocol.py", line 330, in send
+    yield from self.ensure_open()
+  File "C:\Users\Decid_p2go16g\AppData\Local\Programs\Python\Python36\lib\site-packages\websockets\protocol.py", line 414, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1000, no reason.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Decid_p2go16g\Desktop\MusicBot-master\musicbot\bot.py", line 431, in get_voice_client
+    vc = await self.join_voice_channel(channel)
+  File "C:\Users\Decid_p2go16g\Desktop\MusicBot-master\musicbot\bot.py", line 373, in join_voice_channel
+    await self.ws.voice_state(server.id, channel.id)
+  File "C:\Users\Decid_p2go16g\AppData\Local\Programs\Python\Python36\lib\site-packages\discord\gateway.py", line 511, in voice_state
+    yield from self.send_as_json(payload)
+  File "C:\Users\Decid_p2go16g\AppData\Local\Programs\Python\Python36\lib\site-packages\discord\gateway.py", line 450, in send_as_json
+    raise ConnectionClosed(e) from e
+discord.errors.ConnectionClosed: WebSocket connection is closed: code = 1000, no reason.
+[27.1534392833709717] 2018-11-07 21:19:39,853 - DEBUG - musicbot.bot | In bot.py::MainThread(49276), line 427 in get_voice_client: Connection attempt 4 to General Chat
+[27.1534392833709717] 2018-11-07 21:19:39,853 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(49276), line 366 in join_voice_channel: (join_voice_channel) creating futures
+[27.1534392833709717] 2018-11-07 21:19:39,853 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(49276), line 372 in join_voice_channel: (join_voice_channel) setting voice state
+[27.1534392833709717] 2018-11-07 21:19:39,853 - ERROR - musicbot.bot | In bot.py::MainThread(49276), line 445 in get_voice_client: Unknown error attempting to connect to voice
+Traceback (most recent call last):
+  File "C:\Users\Decid_p2go16g\AppData\Local\Programs\Python\Python36\lib\site-packages\discord\gateway.py", line 447, in send_as_json
+    yield from super().send(utils.to_json(data))
+  File "C:\Users\Decid_p2go16g\AppData\Local\Programs\Python\Python36\lib\site-packages\websockets\protocol.py", line 330, in send
+    yield from self.ensure_open()
+  File "C:\Users\Decid_p2go16g\AppData\Local\Programs\Python\Python36\lib\site-packages\websockets\protocol.py", line 414, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1000, no reason.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Decid_p2go16g\Desktop\MusicBot-master\musicbot\bot.py", line 431, in get_voice_client
+    vc = await self.join_voice_channel(channel)
+  File "C:\Users\Decid_p2go16g\Desktop\MusicBot-master\musicbot\bot.py", line 373, in join_voice_channel
+    await self.ws.voice_state(server.id, channel.id)
+  File "C:\Users\Decid_p2go16g\AppData\Local\Programs\Python\Python36\lib\site-packages\discord\gateway.py", line 511, in voice_state
+    yield from self.send_as_json(payload)
+  File "C:\Users\Decid_p2go16g\AppData\Local\Programs\Python\Python36\lib\site-packages\discord\gateway.py", line 450, in send_as_json
+    raise ConnectionClosed(e) from e
+discord.errors.ConnectionClosed: WebSocket connection is closed: code = 1000, no reason.
+[27.6584379673004150] 2018-11-07 21:19:40,358 - DEBUG - musicbot.bot | In bot.py::MainThread(49276), line 427 in get_voice_client: Connection attempt 5 to General Chat
+[27.6584379673004150] 2018-11-07 21:19:40,358 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(49276), line 366 in join_voice_channel: (join_voice_channel) creating futures
+[27.6584379673004150] 2018-11-07 21:19:40,358 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(49276), line 372 in join_voice_channel: (join_voice_channel) setting voice state
+[27.6584379673004150] 2018-11-07 21:19:40,358 - ERROR - musicbot.bot | In bot.py::MainThread(49276), line 445 in get_voice_client: Unknown error attempting to connect to voice
+Traceback (most recent call last):
+  File "C:\Users\Decid_p2go16g\AppData\Local\Programs\Python\Python36\lib\site-packages\discord\gateway.py", line 447, in send_as_json
+    yield from super().send(utils.to_json(data))
+  File "C:\Users\Decid_p2go16g\AppData\Local\Programs\Python\Python36\lib\site-packages\websockets\protocol.py", line 330, in send
+    yield from self.ensure_open()
+  File "C:\Users\Decid_p2go16g\AppData\Local\Programs\Python\Python36\lib\site-packages\websockets\protocol.py", line 414, in ensure_open
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1000, no reason.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Decid_p2go16g\Desktop\MusicBot-master\musicbot\bot.py", line 431, in get_voice_client
+    vc = await self.join_voice_channel(channel)
+  File "C:\Users\Decid_p2go16g\Desktop\MusicBot-master\musicbot\bot.py", line 373, in join_voice_channel
+    await self.ws.voice_state(server.id, channel.id)
+  File "C:\Users\Decid_p2go16g\AppData\Local\Programs\Python\Python36\lib\site-packages\discord\gateway.py", line 511, in voice_state
+    yield from self.send_as_json(payload)
+  File "C:\Users\Decid_p2go16g\AppData\Local\Programs\Python\Python36\lib\site-packages\discord\gateway.py", line 450, in send_as_json
+    raise ConnectionClosed(e) from e
+discord.errors.ConnectionClosed: WebSocket connection is closed: code = 1000, no reason.
+[28.1643552780151367] 2018-11-07 21:19:40,864 - CRITICAL - musicbot.bot | In bot.py::MainThread(49276), line 450 in get_voice_client: Voice client is unable to connect, restarting...
+[28.1653029918670654] 2018-11-07 21:19:40,865 - DEBUG - musicbot.bot | In bot.py::MainThread(49276), line 453 in get_voice_client: Connected in -1541643580.4s
+[28.1653029918670654] 2018-11-07 21:19:40,865 - INFO - musicbot.bot | In bot.py::MainThread(49276), line 454 in get_voice_client: Connected to MAHN SHWINES!/General Chat
+[28.1663038730621338] 2018-11-07 21:19:40,866 - DEBUG - musicbot.bot | In bot.py::MainThread(49276), line 284 in _join_startup_channels: Error joining MAHN SHWINES!/General Chat
+Traceback (most recent call last):
+  File "C:\Users\Decid_p2go16g\Desktop\MusicBot-master\musicbot\bot.py", line 270, in _join_startup_channels
+    player = await self.get_player(channel, create=True, deserialize=self.config.persistent_queue)
+  File "C:\Users\Decid_p2go16g\Desktop\MusicBot-master\musicbot\bot.py", line 541, in get_player
+    voice_client = await self.get_voice_client(channel)
+  File "C:\Users\Decid_p2go16g\Desktop\MusicBot-master\musicbot\bot.py", line 456, in get_voice_client
+    vc.ws._keep_alive.name = 'VoiceClient Keepalive'
+AttributeError: 'NoneType' object has no attribute 'ws'
+[28.1663038730621338] 2018-11-07 21:19:40,866 - ERROR - musicbot.bot | In bot.py::MainThread(49276), line 285 in _join_startup_channels: Failed to join MAHN SHWINES!/General Chat
